@@ -1,0 +1,10 @@
+import paisesEmpresasActividades.*
+import cumbre.*
+import participantes.*
+import conocimientos.*
+
+test "testX" {
+
+	assert.that(true)
+
+}
