@@ -1,16 +1,16 @@
 import cumbre.*
 class Pais {
-	const conflictivos = []
+	var property conflictos = #{}
 	
-	method tieneConflictoCon(pais) = conflictivos.contains(pais)
-	
-	method registrarConflicto(pais) {
-		conflictivos.add(pais)
+	method registrarConflictoCon(pais) {
+		pais.conflictos().add(self)
+		self.conflictos().add(pais)
 	}
-//	method esConflictivo() = cumbre.esConflictivo(self)
-	
 }
 
 
-class Actividad {
+class Actividades {
+	var property tema
+	var property cantidadDeHoras
+		
 }
